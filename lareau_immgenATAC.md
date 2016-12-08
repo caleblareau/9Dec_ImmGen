@@ -1,0 +1,153 @@
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.small-code pre code {
+  font-size: 1em;
+}
+
+.reveal h3 {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+.reveal h1 {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+</style>
+
+
+
+ImmGen ATAC
+========================================================
+autosize: true  
+transition-speed: slow
+<br><br>
+Caleb Lareau<br>
+Buenrostro Lab
+
+<div class="footer" style="margin-top:-50px;background-color:transparent;"><SPAN STYLE="font-size:80%;font-weight:bold;">https://buenrostrolab.com/ImmGenATAC</a><br>December 12, 2016</SPAN></div>
+
+Overview
+========================================================
+<br>
+- 
+- Finding Open Chromatin
+- Analysis methods
+  - Transcription factor deviation scoring
+- Early analysis results
+- Anticipated analyses
+
+
+Hierarchy of Chromatin
+========================================================
+<DIV ALIGN=CENTER>
+<img src="images/chromCompaction.png" width="50%" height="50%" />
+</DIV>
+Schones et al. Nat. Rev. Genetics (2008)
+
+Why open chromatin?
+========================================================
+<DIV ALIGN=CENTER>
+<img src="images/tfs.png" width="100%" height="100%" />
+</DIV><br>
+Kaplan et al. Nature (2012)
+
+How?
+========================================================
+<DIV ALIGN=CENTER>
+<img src="images/DNase1.png" width="80%" height="80%" />
+</DIV><br>
+Weintraub et al. Science (1971)
+
+How?
+========================================================
+<DIV ALIGN=CENTER>
+<img src="images/DNase2.png" width="90%" height="90%" />
+</DIV>
+- 44 steps in total; requires 300+ million cells <br><br>
+Song and Crawford, CSH protocols 2010
+
+Transposon Activity
+========================================================
+<br>
+<DIV ALIGN=CENTER>
+<iframe width="784" height="441" src="https://www.youtube.com/embed/m3FZjhf4Jnc" frameborder="0" allowfullscreen></iframe>
+</DIV>
+
+Fragments
+========================================================
+<br>
+<DIV ALIGN=CENTER>
+<img src="images/ATAC_frag.png" width="100%" height="100%" />
+</DIV>
+
+Analysis
+========================================================
+
+Sample Clustering
+========================================================
+
+<DIV ALIGN=CENTER>
+<img src="images/Promoters.png" width="60%" height="60%" />
+</DIV>
+
+Sample Clustering
+========================================================
+
+<DIV ALIGN=CENTER>
+<img src="images/Allpeaks.png" width="60%" height="60%" />
+</DIV>
+
+Sample Clustering
+========================================================
+
+<DIV ALIGN=CENTER>
+<img src="images/Distal.png" width="60%" height="60%" />
+</DIV>
+
+
+Two-dimensional Plot
+========================================================
+
+<DIV ALIGN=CENTER>
+<img src="images/classMem.png" width="60%" height="60%" />
+</DIV>
+
+TF Scores
+========================================================
+
+<DIV ALIGN=CENTER>
+<img src="images/Rora.png" width="60%" height="60%" />
+</DIV>
+
+TF Scores
+========================================================
+
+<DIV ALIGN=CENTER>
+<img src="images/Pax5.png" width="60%" height="60%" />
+</DIV>
+
+TF Scores
+========================================================
+
+<DIV ALIGN=CENTER>
+<img src="images/Tbx1.png" width="60%" height="60%" />
+</DIV>
+
+
+
+Thanks!
+======================================================== 
+<br>
+https://buenrostrolab.com/ImmGenATAC
